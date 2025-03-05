@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd5fbfb7-dcfa-4b44-ab00-ed0926d95e14">
+  <producedTypes>
+    <objectType typeId="60998e5d-93ab-4f5b-9ebb-6eaf1907b302" valueTypeId="cf8119a0-89dd-4019-82d3-626e5d3fbe5e"/>
+  </producedTypes>
+  <name>КопированиеПравПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Копирование прав пользователя</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="d948b98e-baa6-482e-a456-c2628d49fb68"/>
+  <defaultForm>ExternalDataProcessor.КопированиеПравПользователя.Form.Форма</defaultForm>
+  <attributes uuid="17b6871a-75b9-4d6b-9816-3bbc78b531e0">
+    <name>ПользовательИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь источник</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="b733af9d-4e08-4b9f-b379-52fd0a9a2b94">
+    <name>ПользовательПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь получатель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="494e819e-97d4-45d2-ba5d-995d4c8402cd">
+    <name>КопироватьГруппыДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Копировать группы доступа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7a4616fe-095f-4022-b849-42419ef22fad">
+    <name>КопироватьГруппыПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Копировать группы пользователей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d8de7bdf-05a2-4de5-bc28-acbebde5e2a5">
+    <name>КопироватьПерсональныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Копировать персональные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="eb8c9d38-6c44-4c2a-86e3-f819d7b4a917">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
